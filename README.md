@@ -13,7 +13,7 @@ In particular, this development presents the layers of
 * __Domain:__ All entities belonging to the business process are defined here, including data validation.
 * __Application:__ The definition of the application at the abstract level is implemented here. Questions like what the application should do, in which way, with what data are answered here and abstract code is created.
 * __Infrastructure:__ The concrete implementation of the previous layer is implemented here. Now the application is connected to real things (database, external frameworks, etc) needed to fullfil the application logic. One thing to notice is that this application makes use of Dapper micro-ORM instead of the usual Entity Framewor for database access.
-* __Presentation:__ This layer takes charge of the API the is exposed to the user in order to manage the application, including the protection of routes from public access
+* __Presentation:__ This layer takes charge of the API that is exposed to the user in order to manage the application, including the protection of routes from public access
 
 The application was developed following the test-driven development guidelines and there is a section of the project for it.
 
