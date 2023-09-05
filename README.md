@@ -1,7 +1,7 @@
 # Musicians
 
 ## User story
-The development presented is that of a universal database that aims to catalog all the musicians that have ever existed, be they bands or soloists, including the genre they favored the most, the preferred instrument, and since when they have been active.
+The development presented is that of a fictional universal world-wide database that aims to catalog all the musicians that have ever existed, be they bands or soloists, including the genre they favored the most, the preferred instrument, and since when they have been active.
 
 The application allows you to add, modify, delete and consult the database to interact, add, correct or delete musicians.
 Some protected routes have been established that only authorized users can access.
