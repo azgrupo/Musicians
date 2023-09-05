@@ -11,9 +11,9 @@ Execution
 At the moment the execution is done directly from the development environment. The application is executed and it presents us with a page with all the endpoints that the API has.
 The development follows the clean architecture approch promoted by "Uncle" Bob that tries to maintain and enforce loosly coupled applications for easy manteinability, testing and scalability.
 In particular, this development presents the layers of
-Domain:
-Application:
-Infrastructure:
-Presentation
+* Domain:
+* Application:
+* Infrastructure:
+* Presentation
 
 The application was developed following the test-driven development guidelines and there is a section of the project for it.
