@@ -12,7 +12,7 @@ The development follows the clean architecture approch promoted by "Uncle" Bob t
 In particular, this development presents the layers of
 * Domain: All entities belonging to the bussines process are defined here, including data validation.
 * Application: The definition of the application at the abstract level is implemented here. Questions like what the application should do, in which way, with what data are answered here and abstract code is created.
-* Infrastructure: The concrete implementation of the previous layer is implemented here. Now the application is connected to real things (database, external frameworks, etc) needed to fullfil the application logic.
+* Infrastructure: The concrete implementation of the previous layer is implemented here. Now the application is connected to real things (database, external frameworks, etc) needed to fullfil the application logic. One thing to notice is that this application makes use of Dapper micro-ORM instead of the usual Entity Framewor for database access.
 * Presentation: This layer takes charge of the API the is exposed to the user in order to manage the application, including the protection of routes from public access
 
 The application was developed following the test-driven development guidelines and there is a section of the project for it.
